@@ -19,6 +19,9 @@ Also append the prompt used to generate the commit in full.
 Instead of creating merges into a branch try to rebase the current branch on
 top of another.
 
+For example, to get content from branch `main` from the `origin` repo use `git
+rebase --pull origin main`.
+
 ## Create pull request
 
 Use the `gh` utility to create the pull request.
