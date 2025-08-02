@@ -26,6 +26,8 @@ rebase --pull origin main`.
 
 Use the `gh` utility to create the pull request.
 
+Use the remote `origin/main` as a baseline for the pull request.
+
 Any pull request you create must contain this note as the last line in the
 commit message in addition to any commit summaries added:
 
