@@ -22,6 +22,9 @@ In file `MODULE.bazel` increment the `version` SemVer parameter value in the
 * Create a commit for this change. If able use the `gh` command line utility
   to create a pull request.
 
+  Add the text `@bazel-io skip_check unstable_url` in a line of its own at the
+  end of the pull request description.
+
 * Tag this commit with the value of `version` previously computed. Push that tag
   to the remote repository.
 
