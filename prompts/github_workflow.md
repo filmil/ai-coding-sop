@@ -14,3 +14,6 @@ Be sure to read the file //README.md if it exists.
 * Add a rule that allows caching build artifacts.
 
 * Ensure that the caching is keyed so that the cache expires in 24 hours.
+
+* At the top of the README.md file, add a build status icon pointing to
+  the status icon of the workflow you just made.
