@@ -1,0 +1,13 @@
+# How to initialize a project for bazel publication
+
+## Prerequisites
+
+* Clone the empty repository to place the code in. If you do not know the
+  repo URL, ask.
+* Use the example directory at bazel-go-basic/.bcr to set up the BCR publishing
+  * Change what needs to be changed to match to this repository.
+* Use the sample workflows from bazel-go-basic/.github/workflows to create similar
+  workflows in the new project.
+* Create the file LICENSE, fill it out with the Apache 2.0 license text.
+* Create the file README.md, add to it at the beginning the links to status icons
+  for the workflows defined above.
